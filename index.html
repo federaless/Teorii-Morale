@@ -69,6 +69,9 @@ strong{font-weight:600}
 .hero{padding:clamp(3rem,8vw,5.5rem) 0 clamp(3rem,6vw,4.5rem)}
 .hero h1{font-size:clamp(2.5rem,6.2vw,4.5rem);margin-top:1rem;max-width:15ch}
 .hero h1 em{font-style:italic}
+.byline{margin-top:1.25rem;display:inline-flex;align-items:center;gap:.6rem;font-size:.9375rem;color:var(--muted)}
+.byline::before{content:"";width:2rem;height:1px;background:var(--ink)}
+.byline strong{color:var(--ink);font-family:var(--f-display);font-size:1.125rem;font-weight:600}
 .hero-lead{margin-top:1.25rem;max-width:58ch;font-size:1.1875rem;color:var(--muted)}
 .fork{margin-top:3rem;display:grid;grid-template-columns:1fr 4rem 1fr;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
 .road{display:flex;flex-direction:column;gap:.6rem;padding:2.25rem 1.5rem 2rem;text-decoration:none;transition:background-color .25s ease}
@@ -266,6 +269,7 @@ footer .gr{font-size:1.25rem}
 <header class="hero wrap" id="top">
   <p class="eyebrow">Etică · Teorii morale</p>
   <h1>Ce face ca o faptă să fie <em>bună</em>?</h1>
+  <p class="byline">Aplicație realizată de <strong>Doroftei Federico Mario</strong></p>
   <p class="hero-lead">Eticile răspund în două feluri. Pentru unele, o faptă valorează prin scopul spre care tinde. Pentru altele, prin datoria pe care o împlinește, orice ar urma din ea.</p>
 
   <div class="fork">
@@ -601,7 +605,7 @@ footer .gr{font-size:1.25rem}
 
 <footer>
   <div class="wrap">
-    <span>Lecția „Teorii morale”: etici teleologice (hedoniste, eudaimoniste) și etici deontologice (Kant).</span>
+    <span>Lecția „Teorii morale”: etici teleologice (hedoniste, eudaimoniste) și etici deontologice (Kant). Aplicație realizată de Doroftei Federico Mario.</span>
     <span class="gr" lang="grc">τέλος · δέον</span>
   </div>
 </footer>
